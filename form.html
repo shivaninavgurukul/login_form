@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-
     <div class="container">
         <form id="loginForm" action="/action_page.php">
 
@@ -17,11 +16,8 @@
             <label for="psw">Password</label>
             <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-
             <button type="submit">Submit</button>
-
         </form>
-
         <div id="message">
             <p>Password must contain:</p>
             <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
@@ -30,7 +26,6 @@
             <p id="length" class="invalid">Minimum <b>8 characters</b></p>
         </div>
     </div>
-
     <script src="form.js"></script>
 
 </body>
